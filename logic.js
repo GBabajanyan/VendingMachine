@@ -15,7 +15,7 @@ module.exports = {
             console.log(product.id + ' : ' + product.name + ' : ' + other);
         }
         console.log('-------------');
-    }
+    },
     //-----------TAKING ORDER-----------
     getMoney: (need, name) => {
         let givenMoney = module.exports.getMoneySet()
